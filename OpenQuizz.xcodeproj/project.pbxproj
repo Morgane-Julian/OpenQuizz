@@ -101,7 +101,7 @@
 				4A74566E24F5AB070074F986 /* GameManager.swift */,
 			);
 			name = Model;
-			path = "Modèle";
+			path = Models;
 			sourceTree = "<group>";
 		};
 		4A88998824E2A51300BDDDF0 /* View */ = {
