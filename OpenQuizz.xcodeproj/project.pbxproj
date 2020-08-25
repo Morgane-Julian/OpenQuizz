@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A74566F24F5AB070074F986 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A74566E24F5AB070074F986 /* GameManager.swift */; };
 		4A88997324E2A31100BDDDF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A88997224E2A31100BDDDF0 /* AppDelegate.swift */; };
 		4A88997524E2A31100BDDDF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A88997424E2A31100BDDDF0 /* SceneDelegate.swift */; };
 		4A88997A24E2A31100BDDDF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A88997824E2A31100BDDDF0 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A74566E24F5AB070074F986 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		4A88996F24E2A31100BDDDF0 /* OpenQuizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenQuizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A88997224E2A31100BDDDF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A88997424E2A31100BDDDF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				4A88998A24E2A58C00BDDDF0 /* Question.swift */,
 				4A88998E24E2A66100BDDDF0 /* Game.swift */,
 				4A88999224E2A8CC00BDDDF0 /* QuestionManager.swift */,
+				4A74566E24F5AB070074F986 /* GameManager.swift */,
 			);
 			name = Model;
 			path = "Modèle";
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A88998F24E2A66100BDDDF0 /* Game.swift in Sources */,
+				4A74566F24F5AB070074F986 /* GameManager.swift in Sources */,
 				4A88998B24E2A58C00BDDDF0 /* Question.swift in Sources */,
 				4A88999924E2B5CA00BDDDF0 /* QuestionView.swift in Sources */,
 				4A88997324E2A31100BDDDF0 /* AppDelegate.swift in Sources */,

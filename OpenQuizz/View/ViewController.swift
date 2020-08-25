@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var questionView: QuestionView!
 
-    var game = Game()
+    private var game = GameManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         if game.state == .onGoing {
             switch sender.state {
             case .began, .changed:
-                transformQuestionViewWith(gesture: sender)
+                transformQuestionView(with: sender)
             case .ended, .cancelled:
                 answerQuestion()
             default:
@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         }
     }
 
-    private func transformQuestionViewWith(gesture: UIPanGestureRecognizer) {
+    private func transformQuestionView(with gesture: UIPanGestureRecognizer) {
         let translation = gesture.translation(in: questionView)
 
         let translationTransform = CGAffineTransform(translationX: translation.x, y: translation.y)
